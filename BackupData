@@ -1,0 +1,188 @@
+const categories = [
+  { categoryID: 1, categoryName: 'Bread and Butter' },
+  { categoryID: 2, categoryName: 'Beverages' },
+  { categoryID: 3, categoryName: 'Coffee & Tea' },
+  { categoryID: 4, categoryName: 'Perfumes and fragnances' },
+  { categoryID: 5, categoryName: 'Stationary' },
+  { categoryID: 6, categoryName: 'Biscuits' }
+]
+const products = [
+    {
+        categoryID: 1,
+        productID: '1',
+        productName: 'Bran Bread',
+        unitProductPrice: '100',
+        productPrice: '100',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000001'
+
+
+    }, 
+    {
+        categoryID: 1,
+        productID: '2',
+        productName: 'Butter',
+        unitProductPrice: '200',
+        productPrice: '200',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000002'
+    }, 
+    {
+        categoryID: 1,
+        productID: '3',
+        productName: 'Cheese',
+        unitProductPrice: '150',
+        productPrice: '150',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000003'
+    }, 
+    {
+        categoryID: 2,
+        productID: '4',
+        productName: 'Water',
+        unitProductPrice: '30',
+        productPrice: '30',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000004'
+    }, 
+    {
+        categoryID: 2,
+        productID: '5',
+        productName: 'Pepsi',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+        unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000005'
+    }, 
+    {
+        categoryID: 2,
+        productID: '6',
+        productName: '7up',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000006'
+    }, 
+    {
+        categoryID: 3,
+        productID: '7',
+        productName: 'Nestle Coffee',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000007'
+    }, 
+    {
+        categoryID: 3,
+        productID: '8',
+        productName: 'Tapal Family Mixture',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000008'
+    }, 
+    {
+        categoryID: 3,
+        productID: '9',
+        productName: 'Tapal Green Tea',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000009'
+    }, 
+    {
+        categoryID: 3,
+        productID: '10',
+        productName: 'Ice Tea',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000010'
+    }, 
+    {
+        categoryID: 3,
+        productID: '11',
+        productName: 'Dark Gold Coffee',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000011'
+    }, 
+    {
+        categoryID: 3,
+        productID: '12',
+        productName: 'Peach Tea',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000012'
+    }, 
+    {
+        categoryID: 3,
+        productID: '13',
+        productName: 'Lemon Tea',
+        unitProductPrice: '50',
+        productPrice: '50',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000013'
+    }, 
+    {
+        categoryID: 4,
+        productID: '14',
+        productName: 'VOLT body spray',
+        unitProductPrice: '500',
+        productPrice: '500',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '100000014'
+    }, 
+    {
+        categoryID: 5,
+        productID: '15',
+        productName: 'Mercury White Board Marker',
+        unitProductPrice: '200',
+        productPrice: '200',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 0,
+        barcode: '8736900083240'
+    }, 
+    {
+        categoryID: 6,
+        productID: '16',
+        productName: 'Mix Biscuits',
+        unitProductPrice: '320',
+        productPrice: '320',
+        Quantity: '1',
+unitQuantity: '1',
+        IsOpen: 1,
+        barcode: '8736900083241'
+    }
+]
